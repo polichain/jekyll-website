@@ -60,3 +60,7 @@ exclude:
 collections:
   estudo:
     output: true
+  membros:
+    output: true
+  saibamais:
+    output: true
