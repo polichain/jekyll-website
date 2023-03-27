@@ -60,7 +60,9 @@ exclude:
 collections:
   estudo:
     output: true
+    permalink: /estudo/:name.html
   membros:
     output: true
+    permalink: /membros/:name.html
   saibamais:
     output: true
