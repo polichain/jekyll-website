@@ -22,7 +22,7 @@ title: Polichain
 email: otavio@polichain.xyz
 description: >- # this means to ignore newlines until "baseurl:"
   Esse site destina-se a expor na internet as atividades desenvolvidas pelo grupo de
-  estudos de blockchain a Escola Politécnica da USP.
+  estudos de blockchain da Escola Politécnica da USP.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # @Dev's note
