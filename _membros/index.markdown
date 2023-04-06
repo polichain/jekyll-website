@@ -20,7 +20,7 @@ Enzo Neves Cardeal
 
 Lucas Soares Lyra
 
-Gabriel Cortes de Freita
+Gabriel Cortes de Freitas
 
 Gustavo Trazzi Colodeti Barboza
 
