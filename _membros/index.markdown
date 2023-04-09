@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Membros"
-date:   2023-03-23 22:06:57 -0300
+date:   2023-04-08 00:00:00 -0300
 ---
 
 # Membros
@@ -23,6 +23,8 @@ Lucas Soares Lyra
 Gabriel Cortes de Freitas
 
 Gustavo Trazzi Colodeti Barboza
+
+[Brian Nunes](brian)
 
 # 2022
 
