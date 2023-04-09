@@ -25,13 +25,12 @@ Then, clone this repo using: <br>
 3. Finally, for running locally ```jekyll``` has the feature of ```serve```. So you can use: "```bundle exec jekyll serve```" and the server should start at port 4000 on your localhost.
 
 ## How to deploy it
-?
 If you want to deploy it, remember that the usually called ```src``` folder is the ```_site```. In this repository we are using firebase to do so. See https://firebase.google.com/docs/cli for instructions.
 
 # Submiting changes
 Create a new branch from ```base-project```, make your changes, when done just rebase it and then open the pull request. There are various ways to interact with git and github, but using remotes is the most common. 
 
-Highly recommend using git-lens on VSCode or analogous to solve conflicts on rebase.
+> Highly recommend using git-lens on VSCode or analogous to solve conflicts on rebase.
 
 # Common problems
 
