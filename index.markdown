@@ -20,12 +20,12 @@ Aqui temos alguns materiais produzidos para treinamento interno, bem como inform
 
 ## Próximos eventos:
 
-30/03 17h
+05/05 a 07/05
 
-**Título**: Binance Academy x USP
+**Título**: Inteli\|BLOCKCHAIN
 
-**Local**: Auditório do INOVA-USP
+**Local**: Inteli
 
-**Tema**: Uma introdução à web3 e Metaverso
+**Tema**: Hackathon organizado pelo Inteli. As empresas parceiras do evento trarão diversos temas diferentes de projeto, cada um com sua premiação.
 
-**Inscrições:**: [Binance Academy x USP](https://www.eventbrite.co.uk/e/binance-academy-x-usp-tickets-588366749787)
+**Inscrições:**: [Hackathon Inteli Blockchain](https://hackathon.inteliblockchain.co/)
