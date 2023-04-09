@@ -3,97 +3,122 @@
 
 @import "no-style-please";
 
-body {
-    margin: 0;
-    min-height: 100vh;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-  }
-  
-.centralizar-div {
-    justify-content: center;
-    align-items: center;
-    margin-top: 10vh;
-    max-width: 50rem; /* Ajuste a largura máxima da div, se necessário */
-    overflow-y: auto; /* Habilita a rolagem vertical se o conteúdo ultrapassar a altura da tela */
+h1, h2, p{
+  margin: 0;
 }
 
-h1 {
-    margin-top: 0;
+.body {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Cria duas linhas: uma para a navbar e outra para o conteúdo */
+  min-height: 100vh; /* Faz a página ocupar toda a altura da tela */
 }
 
-
-img {
-    float: left;
-    margin-right: 50px;
+.navbar {
+  grid-row: 1; /* Posiciona a navbar na primeira linha do grid */
+  width: 100%; /* Faz a navbar ocupar toda a largura da tela */
+  background-color: transparent; /* Cor de fundo da navbar */
 }
 
-.perfil {
-    width: 150px; /* Ajuste a largura da imagem */
-    height: 150px; /* Ajuste a altura da imagem */
-    object-fit: cover; /* Ajusta a imagem para preencher a área disponível, cortando partes se necessário */
-    border-radius: 100%; /* Cria uma borda circular */
-    overflow: hidden; /* Esconde as partes da imagem fora do círculo */
-  }
+.navbar > ul > li {
+  display: inline-block;
+  margin: auto;
+}
 
-.container{
-    display: flex;
-    flex-direction: column;  
- }
+.responsive-container {
+  max-width: 1200px; /* Define a largura máxima do container */
+  width: 100%; /* Faz o container ocupar toda a largura disponível */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 1rem; /* Adiciona um pouco de espaço interno ao container */
+  box-sizing: border-box; /* Inclui o padding na largura total do container */
+}
 
- h2, h1, p {
-    margin-top: 0;
-    margin-bottom: 0;
- }
+@media (max-width: 768px) {
 
- .navbar {
-    position: fixed; /* Fixa a navbar na posição definida */
-    top: 0; /* Define a distância da parte superior da tela */
-    left: 0; /* Define a distância da parte esquerda da tela */
-    z-index: 1000; /* Coloca a navbar acima de outros elementos da página */
+  .navbar {
     width: 100%; /* Faz a navbar ocupar toda a largura da tela */
     background-color: transparent; /* Cor de fundo da navbar */
   }
-  
-  .navbar ul {
-    list-style-type: none; /* Remove marcadores de lista */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Deixa os itens da lista em linha */
+  .navbar > ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 1rem;
   }
-  
-  .navbar li {
-    margin-right: 1rem; /* Espaço entre os itens da navbar */
-  }
-  
-  .navbar a {
+  .navbar > ul > li {
     display: block;
-    color: #000; /* Cor do texto dos links */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    padding: 1rem; /* Espaçamento interno dos links */
-    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para as mudanças de cor */
-  }
-  
-  .navbar a:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo do link quando o mouse passa sobre ele */
-    color: #fff; /* Cor do texto do link quando o mouse passa sobre ele */
   }
 
-  .horizontal-links {
-    list-style-type: none; /* Remove marcadores de lista */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Deixa os itens da lista em linha */
+  .responsive-container {
+    padding: 1rem 2rem; /* Aumenta o espaço interno do container nas laterais em dispositivos menores */
   }
-  
-  .horizontal-links li {
-    margin-right: 1rem; /* Espaço entre os itens da lista */
+}
+
+.circular-frame {
+  position: relative; /* Define a posição relativa para que os elementos filhos possam ser posicionados em relação a este elemento */
+  width: 200px; /* Define a largura da moldura circular */
+  height: 200px; /* Define a altura da moldura circular */
+  border-radius: 100px; /* Cria uma moldura circular */
+  overflow: hidden; /* Esconde as partes da imagem fora do círculo */
+  display: inline-block; /* Faz o elemento se comportar como um bloco, mas alinhado com outros elementos */
+}
+
+.framed-image {
+  width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+  height: 100%; /* Mantém a proporção da imagem */
+  position: absolute; /* Posiciona a imagem em relação ao elemento pai */
+  top: 50%; /* Centraliza a imagem verticalmente */
+  left: 50%; /* Centraliza a imagem horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta a posição da imagem para que ela fique centralizada */
+  object-fit: cover; /* Ajusta a imagem para preencher a área disponível, cortando partes se necessário */
+}
+
+.image-container {
+  margin: 1rem; /* Adiciona espaço acima do texto */
+  display: flex;
+  flex-direction: row; /* Alinha os elementos horizontalmente em todos os dispositivos */
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  align-items: flex-start; /* Centraliza os elementos verticalmente */
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+
+.text-content { 
+  text-align: left; /* Alinha o texto à esquerda */
+  margin-top: 1rem; /* Adiciona espaço acima do texto */
+  max-width: 500px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 769px) {
+  .image-container {
+    margin: auto;
+    width: 50%;
+    grid-column: 1;
+    display: block;
+    min-height: 0;
   }
 
-  .navbar p {
-    display: block;
-    color: #000; /* Cor do texto dos links */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    padding: 1rem; /* Espaçamento interno dos links */
+  .circular-frame {
+    margin-right: 0rem; /* Adiciona espaço à direita da imagem */
   }
+
+  .text-content {
+    margin: auto;
+    padding: 1rem;
+    grid-column: 2;
+    display: inline-block;
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  .flex-container {
+    display: block;
+    justify-content: center;
+  }
+}
