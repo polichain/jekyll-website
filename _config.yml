@@ -37,6 +37,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,8 +52,8 @@ exclude:
 - temp
 #   - .sass-cache/
 #   - .jekyll-cache/
-#   - Gemfile
-#   - Gemfile.lock
+- Gemfile
+- Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
