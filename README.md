@@ -3,12 +3,14 @@ Just our website
 
 # How to run it
 Install jekyll and gems
-Check how to install ruby. It depends on what OS is, please check the official documentation on https://www.ruby-lang.org/en/documentation/installation/ <br>
+Check how to install ruby. It depends on what OS is, please check the official documentation on https://www.ruby-lang.org/en/documentation/installation/ <br> 
 
 Install the dependencies.
+
 ```gem install bundler jekyll```
 
 Clone this repo
+
 ```git clone https://github.com/polichain/jekyll-website```
 
 ### What you wanna do?
@@ -24,3 +26,7 @@ If you want to deploy it, remember that the usually called ``src`` folder is the
 Create a new branch, rebase it and then open the pull request. There are various ways to interact with git and github, but using remotes is the most common. 
 
 Highly recommend using git-lens on VSCode or analogous to solve conflicts on rebase.
+
+# Common problems
+## IPV4 VS IPV6
+https://www.appsloveworld.com/ruby/100/18/timeout-when-installing-ruby-gems
