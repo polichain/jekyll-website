@@ -1,46 +1,99 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+--- 
+--- 
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
-
-// Custom configs 
+@import "no-style-please";
 
 body {
-  background-color: black;
-}
-.site-footer {
-    border-top: 0px;
-    padding: 0px 0;
-}
-
-.site-header {
-    border-top: 0px;
-    border-bottom: 0px;
-    min-height: 55.95px;
-    position: relative;
-}
-
-.horizontal-links{
-  padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+.centralizar-div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    max-width: 50rem; /* Ajuste a largura máxima da div, se necessário */
+    overflow-y: auto; /* Habilita a rolagem vertical se o conteúdo ultrapassar a altura da tela */
 }
 
-ul{
-  margin-left: 0;
+h1 {
+    margin-top: 0;
 }
 
-.horizontal-links li {
-  display: inline;
-  text-align: center;
+
+img {
+    float: left;
+    margin-right: 50px;
 }
 
-.horizontal-links li a {
-  display: inline;
-  text-align: center;
-}
+.perfil {
+    width: 150px; /* Ajuste a largura da imagem */
+    height: 150px; /* Ajuste a altura da imagem */
+    object-fit: cover; /* Ajusta a imagem para preencher a área disponível, cortando partes se necessário */
+    border-radius: 100%; /* Cria uma borda circular */
+    overflow: hidden; /* Esconde as partes da imagem fora do círculo */
+  }
 
-.footer-col{
+.container{
+    display: flex;
+    flex-direction: column;  
+ }
 
-}
+ h2, h1, p {
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+ .navbar {
+    position: fixed; /* Fixa a navbar na posição definida */
+    top: 0; /* Define a distância da parte superior da tela */
+    left: 0; /* Define a distância da parte esquerda da tela */
+    z-index: 1000; /* Coloca a navbar acima de outros elementos da página */
+    width: 100%; /* Faz a navbar ocupar toda a largura da tela */
+    background-color: transparent; /* Cor de fundo da navbar */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Deixa os itens da lista em linha */
+  }
+  
+  .navbar li {
+    margin-right: 1rem; /* Espaço entre os itens da navbar */
+  }
+  
+  .navbar a {
+    display: block;
+    color: #000; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 1rem; /* Espaçamento interno dos links */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para as mudanças de cor */
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo do link quando o mouse passa sobre ele */
+    color: #fff; /* Cor do texto do link quando o mouse passa sobre ele */
+  }
+
+  .horizontal-links {
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Deixa os itens da lista em linha */
+  }
+  
+  .horizontal-links li {
+    margin-right: 1rem; /* Espaço entre os itens da lista */
+  }
+
+  .navbar p {
+    display: block;
+    color: #000; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 1rem; /* Espaçamento interno dos links */
+  }

@@ -2,33 +2,27 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include otavio-head.html -%}
   <body>
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      const firebaseConfig = {
-        apiKey: "AIzaSyCbQiFc8DzpmbD5R079EUbYALQByMiGhX0",
-        authDomain: "polichain-website.firebaseapp.com",
-        projectId: "polichain-website",
-        storageBucket: "polichain-website.appspot.com",
-        messagingSenderId: "714860312857",
-        appId: "1:714860312857:web:65d77439b0c985bbbc2d88"
-      };
-    
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-    </script>
-    
-    {%- include header.html -%}
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="navbar">
+      <ul>
+        <li><p>Volte de onde veio:</p></li>
+        <li><a href="/">Página inicial</a></li>
+        <li><a href="/membros">Página de membros</a></li>
+      </ul>
+    </div>
+    <div class="centralizar-div">
+      <div>
+        <img class="perfil" src="/assets/images/perfil_otavio.jpeg" >
       </div>
-    </main>
-    {%- include footer.html -%}
+      <div class="container">
+        {{ content }}
+        <br/>
+        Aqui estão algumas redes sociais que uso:
+        <ul class="horizontal-links">
+          <li><a href="https://github.com/otaviootavio" target="_blank" >github</a></li>
+          <li><a href="https://www.linkedin.com/in/otavio-vacari/" target="_blank" >linkedin</a></li>
+          <li><a href="https://twitter.com/otaviocansado" target="_blank" >twitter</a></li>
+      </ul>
+      </div>
+    </div>
   </body>
-
 </html>
