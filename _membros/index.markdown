@@ -24,7 +24,7 @@ Gabriel Cortes de Freitas
 
 Gustavo Trazzi Colodeti Barboza
 
-[Brian Nunes](brian)
+[Brian Nunes](brianunes)
 
 # 2022
 
