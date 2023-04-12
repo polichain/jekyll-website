@@ -10,7 +10,7 @@ date:   2023-04-08 00:00:00 -0300
 
 Rafael Loureiro
 
-[Tiago Marinho Lima](tiagomarinho.html)
+Tiago Marinho Lima
 
 Pedro Henrique Moretto
 
