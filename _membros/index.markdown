@@ -14,7 +14,7 @@ Tiago Marinho Lima
 
 Pedro Henrique Moretto
 
-Otávio Vacari
+[Otávio Vacari](otavio)
 
 Enzo Neves Cardeal
 

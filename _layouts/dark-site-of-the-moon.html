@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include otavio-head.html -%}
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><p>Volte de onde veio:</p></li>
+        <li><a href="/">Página inicial</a></li>
+        <li><a href="/membros">Página de membros</a></li>
+      </ul>
+    </div>
+    <div class="flex-container">
+      <div class="image-container">
+        <div class="circular-frame">
+          <img class="framed-image" src="/assets/images/perfil_otavio.jpeg" >
+        </div>
+      </div>
+      <div class="text-content">
+        {{ content }}
+        <br/>
+        Aqui estão algumas redes sociais que uso:
+        <ul class="horizontal-links">
+          <li><a href="https://github.com/otaviootavio" target="_blank" >github</a></li>
+          <li><a href="https://www.linkedin.com/in/otavio-vacari/" target="_blank" >linkedin</a></li>
+          <li><a href="https://twitter.com/otaviocansado" target="_blank" >twitter</a></li>
+      </ul>
+      </div>
+    </div>
+  </body>
+</html>

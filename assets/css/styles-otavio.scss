@@ -1,0 +1,124 @@
+--- 
+--- 
+
+@import "no-style-please";
+
+h1, h2, p{
+  margin: 0;
+}
+
+.body {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Cria duas linhas: uma para a navbar e outra para o conteúdo */
+  min-height: 100vh; /* Faz a página ocupar toda a altura da tela */
+}
+
+.navbar {
+  grid-row: 1; /* Posiciona a navbar na primeira linha do grid */
+  width: 100%; /* Faz a navbar ocupar toda a largura da tela */
+  background-color: transparent; /* Cor de fundo da navbar */
+}
+
+.navbar > ul > li {
+  display: inline-block;
+  margin: auto;
+}
+
+.responsive-container {
+  max-width: 1200px; /* Define a largura máxima do container */
+  width: 100%; /* Faz o container ocupar toda a largura disponível */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 1rem; /* Adiciona um pouco de espaço interno ao container */
+  box-sizing: border-box; /* Inclui o padding na largura total do container */
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    width: 100%; /* Faz a navbar ocupar toda a largura da tela */
+    background-color: transparent; /* Cor de fundo da navbar */
+  }
+  .navbar > ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 1rem;
+  }
+  .navbar > ul > li {
+    display: block;
+  }
+
+  .responsive-container {
+    padding: 1rem 2rem; /* Aumenta o espaço interno do container nas laterais em dispositivos menores */
+  }
+}
+
+.circular-frame {
+  position: relative; /* Define a posição relativa para que os elementos filhos possam ser posicionados em relação a este elemento */
+  width: 200px; /* Define a largura da moldura circular */
+  height: 200px; /* Define a altura da moldura circular */
+  border-radius: 100px; /* Cria uma moldura circular */
+  overflow: hidden; /* Esconde as partes da imagem fora do círculo */
+  display: inline-block; /* Faz o elemento se comportar como um bloco, mas alinhado com outros elementos */
+}
+
+.framed-image {
+  width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+  height: 100%; /* Mantém a proporção da imagem */
+  position: absolute; /* Posiciona a imagem em relação ao elemento pai */
+  top: 50%; /* Centraliza a imagem verticalmente */
+  left: 50%; /* Centraliza a imagem horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta a posição da imagem para que ela fique centralizada */
+  object-fit: cover; /* Ajusta a imagem para preencher a área disponível, cortando partes se necessário */
+}
+
+.image-container {
+  margin: 1rem; /* Adiciona espaço acima do texto */
+  display: flex;
+  flex-direction: row; /* Alinha os elementos horizontalmente em todos os dispositivos */
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  align-items: flex-start; /* Centraliza os elementos verticalmente */
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+
+.text-content { 
+  text-align: left; /* Alinha o texto à esquerda */
+  margin-top: 1rem; /* Adiciona espaço acima do texto */
+  max-width: 500px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 769px) {
+  .image-container {
+    margin: auto;
+    width: 50%;
+    grid-column: 1;
+    display: block;
+    min-height: 0;
+  }
+
+  .circular-frame {
+    margin-right: 0rem; /* Adiciona espaço à direita da imagem */
+  }
+
+  .text-content {
+    margin: auto;
+    padding: 1rem;
+    grid-column: 2;
+    display: inline-block;
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  .flex-container {
+    display: block;
+    justify-content: center;
+  }
+}
