@@ -26,6 +26,8 @@ Gustavo Trazzi Colodeti Barboza
 
 [Brian Nunes](brianunes.html)
 
+[Lucas Parra Sgarbosa](lucasparra)
+
 # 2022
 
 Yuri Alvizi

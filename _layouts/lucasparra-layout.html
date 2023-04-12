@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include_relative _includes/head.html -%}
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><p>Volte de onde veio:</p></li>
+        <li><a href="/">Página inicial</a></li>
+        <li><a href="/membros">Página de membros</a></li>
+      </ul>
+    </div>
+    <div class="flex-container">
+      <div class="image-container">
+        <div class="circular-frame">
+          <img class="framed-image" src="/assets/lucasparra/images/perfil.jpg" >
+        </div>
+      </div>
+      <div class="text-content">
+        {{ content }}
+        <br/>
+        Abaixo estão alguns lugares em que vocês podem me encontrar :)
+      </div>
+      <div class="horizontal-images">
+          <a  href="https://github.com/lucaspsg" target="_blank">
+              <img src="/assets/lucasparra/images/github.png" class="social-ref-image"/>
+          </a>
+          <a  href="https://www.linkedin.com/in/lucas-parra-sgarbosa-053b62203/" target="_blank">
+              <img src="/assets/lucasparra/images/linkedin.png" class="social-ref-image"/>
+          </a>
+          <a  href="mailto:lucas.parra.sgarbosa@gmail.com" target="_blank">
+              <img src="/assets/lucasparra/images/gmail.png" class="social-ref-image"/>
+          </a>
+      </div>
+    </div>
+  </body>
+</html>
