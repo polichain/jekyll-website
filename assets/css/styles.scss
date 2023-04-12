@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+// Custom configs 
+
+.site-footer {
+    border-top: 0px;
+    padding: 0px 0;
+}
+
+.site-header {
+    border-top: 0px;
+    border-bottom: 0px;
+    min-height: 55.95px;
+    position: relative;
+}
+
+.horizontal-links{
+  padding: 0;
+}
+
+ul{
+  margin-left: 0;
+}
+
+.horizontal-links li {
+  display: inline;
+  text-align: center;
+}
+
+.horizontal-links li a {
+  display: inline;
+  text-align: center;
+}
+
+.footer-col{
+
+}
