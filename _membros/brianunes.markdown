@@ -6,7 +6,7 @@ title:  "Brian Nunes"
 # Eae, bem-vindo a minha página pessoal! 🦍
 
 
-<center><img src="../../assets/brian.jpg" alt="Aqui sou eu muito lindo na Faria Lima (é o condado né, mêo)" style="height: 300px"></center>
+<center><img src="../assets/brian.jpg" alt="Aqui sou eu muito lindo na Faria Lima (é o condado né, mêo)" style="height: 300px"></center>
 <br>
 
 ## 👀 Quem sou eu?
@@ -57,6 +57,6 @@ Sendo um apaixonado por Computação e pelos palcos das salas de aulas, meu maio
 
 ## 👥 Social
 <ul class="social-media-list">
-    <li><a href="https://linkedin.com/in/brian-nunes"><img src="../../assets/logo_linkedin.png" alt="Linkedin" style="height: 20px"> brian-nunes</a></li>
-    <li><a href="https://github.com/brian-nunes"><img src="../../assets/logo_github.png" alt="Linkedin" style="height: 20px"> brian-nunes</a></li>
+    <li><a href="https://linkedin.com/in/brian-nunes"><img src="../assets/logo_linkedin.png" alt="Linkedin" style="height: 20px"> brian-nunes</a></li>
+    <li><a href="https://github.com/brian-nunes"><img src="../assets/logo_github.png" alt="Linkedin" style="height: 20px"> brian-nunes</a></li>
 </ul>
