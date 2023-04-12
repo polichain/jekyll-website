@@ -70,5 +70,8 @@ collections:
   otavio:
     output: true
     permalink: membros/otavio/:name.html
+  lucasparra:
+    output: true
+    permalink: membros/lucasparra/:name.html
   saibamais:
     output: true
