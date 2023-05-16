@@ -20,12 +20,14 @@ Aqui temos alguns materiais produzidos para treinamento interno, bem como inform
 
 ## Próximos eventos:
 
-05/05 a 07/05
+**SciBiz** <br/>
+Education <br/>
+Onde a ciência encontra os negócios. 🚀 <br/>
+20 à 23 de Junho de 2023 <br/>
+[scibizconference.com.br](https://www.scibizconference.com.br) <br/>
+[instagram.com/scibizusp](https://www.instagram.com/scibizusp/) <br/>
 
-**Título**: Inteli\|BLOCKCHAIN
 
-**Local**: Inteli
-
-**Tema**: Hackathon organizado pelo Inteli. As empresas parceiras do evento trarão diversos temas diferentes de projeto, cada um com sua premiação.
-
-**Inscrições:**: [Hackathon Inteli Blockchain](https://hackathon.inteliblockchain.co/)
+**EthereumSP 23** <br/>
+HACKATHON & BOOTCAMP <br/>
+22-25 de Junho - Campus da USP <br/>
