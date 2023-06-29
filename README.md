@@ -10,6 +10,7 @@ Jekyll and Gems, both from Ruby, and this repository cloned.
 
 > Obs.: If you don't have rubby installed, install it. The procedure depends on what OS you're using, please check the official documentation on https://www.ruby-lang.org/en/documentation/installation/ <br> 
 
+
 To install the dependencies use:  <br>
 ```gem install bundler jekyll```
 
@@ -41,3 +42,15 @@ https://www.appsloveworld.com/ruby/100/18/timeout-when-installing-ruby-gems
 ## You have the dependencies installed, but your terminal doesn't seem to know it?
 - Try restarting the terminal;
 - If it didn't work you can resolve the local PATHs variables (recommended), or use ```sudo gem install bundler jekyll``` on Linux or run the terminal with administration privileges and use the regular command. Obs.: Note that this is not the best solution.
+
+## You don't have write permissions for the /var/lib/gems/2.3.0 directory
+
+This following solution work for Ubuntu. Did not test for other distros.
+```
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Source: https://stackoverflow.com/questions/37720892/you-dont-have-write-permissions-for-the-var-lib-gems-2-3-0-directory
