@@ -5,7 +5,7 @@ layout: estudo
 
 # Do Webpack até o React
 
-## Porque webpack existe
+## Por que webpack existe?
 
 Criar aplicações webs com muitos scripts pode ser complexo. As tags `<scrpt src>` não são mais suficientes, essa técnica não escala. Muitas requisições HTTP seriam necessárias e o app ficaria lento.
 

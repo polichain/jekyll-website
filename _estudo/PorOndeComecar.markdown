@@ -6,36 +6,39 @@ layout: estudo
 
 Para aprender sobre blockchain não é necessário ser o melhor programador do mundo, apenas lógica de programação deve ser o suficiente. Os cursos abaixo **consideram que você está começando agora**, então não se preocupe se esse é seu primeiro contato ;)
 
-### Desenvolvimento web
+A maior parte do conteúdo para desenvolvimento é escrito em inglês, por isso, vamos primeiramente focar nesses.
 
-É difícil começar, principalmente quanto estamos perdidos e as propagandas do YouTube nos seduzem a comprar cursos no Udemy. As coisas mudam muito rápido, os cursos ficam desatualizados em apenas anos após sua criação. Até mesmo escolher uma linguagem parece confuso a primeira vista, são tantas e parece nem fazer sentido existir tantas. 
+## Fontes em inglês
 
-Cada programador é filho do próprio tempo, programadores mais antigo tem mais familiaridade com linguagens como `php` `ruby` para desenvolver web. Não se preocupe com esses nomes agora, não serão utilizados. Agora os programadores mais novos tendem a usar **Node** e **JavaScript** (que é o nosso caso! ), por isso, é necessário aprender os fundamentos antes de aprender o que há de mais novo.
+É difícil começar, principalmente quanto estamos perdidos e as propagandas do YouTube nos seduzem a comprar cursos no Udemy. As coisas mudam muito rápido, os cursos ficam desatualizados com apenas anos. Até mesmo escolher uma linguagem parece confuso a primeira vista, são tantas e parece nem fazer sentido existir tantas. 
 
-Os cursos abaixo começam com o básico e evoluem para o desenvolvimento te interfaces de usuários (**UI**), ou seja, toda a parte de **banco de dados e servidores serão ignorados**!
+Cada programador é filho do próprio tempo, programadores mais antigo tem mais familiaridade com linguagens como `php` `ruby` para desenvolver web. Não se preocupe com esses nomes agora, não serão utilizados. Agora, os programadores mais novos tendem a usar **Node** e **JavaScript** (que é o nosso caso! ). 
+
+
+Mas de qualquer forma, todos que querem deenvolver para a Web passam por ```HTML```, ```CSS``` e ```Javascript```. Por isso, é necessário aprender esses fundamentos antes de aprender o mais novo. Os cursos abaixo começam com o básico e evoluem para o desenvolvimento de interfaces de usuários (**UI**), ou seja, toda a parte de **banco de dados e servidores serão ignorados**!
 
 > Note que para fazer aplicações que rodem com blockchain **basta o FrontEnd**.
-> 
 
-Como eu sei se eu sei algo sobre desenvolvimento web? Simples, se você é familiar com oo esquema `scripts.js` `style.css` e `index.html` é indício que você sabe de algo! Caso contrário, recomendo que começa a estudar pelo começo. O site abaixo, ensina os fundamentos do desenvolvimento web (web dev).
+Quanto de conhecimento de desenvolvimento web é necessário? Se você é familiar com os arquivos `scripts.js` `style.css` e `index.html` é indício que você sabe de algo! Caso contrário, recomendo que começa a estudar pelo começo. O site abaixo, ensina os fundamentos do desenvolvimento web.
 
-[Your Career in Web Development Starts Here | The Odin Project](https://www.theodinproject.com/)
+[Your Career in Web Development Starts Here  The Odin Project](https://www.theodinproject.com/)
 
-Em seguida, recomendo que estude React! React é uma biblioteca de JavaScript para a construção de interfaces de usuário (UI). Ela é amplamente utilizada para a construção de sites que realizam integração com blockchain. 
+Em seguida, recomendo que estude React! 
+React é uma biblioteca de JavaScript para a construção de interfaces de usuário (UI). Ela é amplamente utilizada para a construção de sites que realizam integração com blockchain. 
 
-**Qual a melhor maneira de aprender React**? Lendo o guia oficial!
+**Qual a melhor maneira de aprender React**? <br/>Lendo o guia oficial!
 
 [Quick Start – React](https://react.dev/learn)
 
-### Plano B (Mas leia como se ainda fosse o Plano A)
+## Fontes em português
 
 Caso inglês seja um impeditivo, existem alguns cursos bons em **português** também! Eles realmente são muito bons.
 
-[Introdução à Web - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web)
+[Introdução à Web - Aprendendo desenvolvimento web MDN](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web)
 
-Quem é MDN? 
+### MDN pode ser o seu melhor amigo. 
 
-A Wikipedia me disse o seguinte: MDN Web Docs, previamente Mozilla Developer Network e anteriormente Mozilla Developer Center, é o website oficial de Mozilla para desenvolvimento de padrões web e projetos de Mozilla.
+MDN Web Docs, previamente Mozilla Developer Network e anteriormente Mozilla Developer Center, é o website oficial de Mozilla para desenvolvimento de padrões web e projetos de Mozilla.
 
 Você pode encarar o MDN como a documentação da internet (é evidente que essa afirmação está errada, a internet não é tão organizada assim), ele é uma excelente fonte de conhecimento e também de referência. Sempre que estiver fazendo pesquisa, seja o funcionamento do `html`, `js, css` e afins consulte o MDN!
 
