@@ -15,7 +15,7 @@ permalink: /saibamais/
 O Grupo de Estudos de Blockchain da Escola Politécnica da USP, (**Polichain**), anteriormente chamado de Nabla, foi fundado no final do ano de 2021 por alunos da graduação com o objetivo de aprofundar os estudo em Blockchain. Uma das principais motivações foi a falta de clareza entre os termos utilizados tanto pela mídia quanto pelo mercado. Por isso, decidimos que o grupo seria **grupo de estudos**. 
 
 
-Desde o começo, o grupo conta com grande apoio da UBRI (University Blockchain Research Initiative), que nos permitiu ter contato com projetos em blockchain dentro da USP.
+Desde o começo, o grupo conta com apoio da [UBRI](https://sites.usp.br/ubri/) (University Blockchain Research Initiative) através dos professores [Marcos Simplicio](http://lattes.cnpq.br/6874544707185541), [Bruno Albertini](http://lattes.cnpq.br/2729012989571213) e [Antonio M. Saraiva](http://lattes.cnpq.br/0725312844547101). A UBRI é uma iniciativa da Ripple Labs Inc., uma empresa Norte Americana por trás da criptomoeda homônima (Ripple, código de negociação XRP) e de tecnologias como a XRP Ledger.
 
 Dentre as atividades realizadas pelo grupo, podemos destacar as seguintes:
 
