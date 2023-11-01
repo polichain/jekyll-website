@@ -29,10 +29,10 @@ jobs:
     steps:
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
-    - name: List files
-      run: ls -la
-    - name: Deploy to Firebase Hosting
-      uses: FirebaseExtended/action-hosting-deploy@v0        
+      - name: List files
+        run: ls -la
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0        
         with:
           entryPoint: .
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
