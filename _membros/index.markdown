@@ -28,6 +28,20 @@ Gustavo Trazzi Colodeti Barboza
 
 [Lucas Parra Sgarbosa](lucasparra)
 
+Guilherme Turina de Melo
+
+Guilherme Augusto Silva Jacule
+
+Veronica Vargas Flores 
+
+Rafael Leme Paduan
+
+Guilherme Beccato Stern
+
+Gustavo Henrique da Silva Amaral
+
+José Victor Lyra de Castro
+
 # 2022
 
 Yuri Alvizi
