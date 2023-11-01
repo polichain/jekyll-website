@@ -40,7 +40,7 @@ Aqui temos alguns materiais produzidos para treinamento interno, bem como inform
 **Datas**: 8 de novembro de 2023 - 10 de dezembro de 2023
 
 ### NEW HORIZON: Innovate Without Limits
-**Inscrições**: [https://chain.link/hackathon](https://chain.link/hackathon)
+**Inscrições**: [https://newhorizon.devpost.com/](https://newhorizon.devpost.com/)
 
 **Datas**: 19 de outubro de 2023 - 11 de dezembro de 2023
 
