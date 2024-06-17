@@ -6,7 +6,7 @@ title:  "Henrique Mantovan"
 ---
 <div style="display: flex; align-items: center;">
     <img src="../assets/logo_1.png"  style="height: 170px; margin-right: 10px;">
-    <h1 style="text-align: center; flex-grow: 1;">Bem vindo à minha página de apresentação</h1>
+    <h1 style="text-align: center; flex-grow: 1;">Bem-vindo à minha página de apresentação</h1>
     <img src="../assets/logo_1.png"  style="height: 170px; margin-left: 10px;">
 </div>
 

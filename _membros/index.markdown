@@ -6,6 +6,10 @@ date:   2023-04-08 00:00:00 -0300
 
 # Membros
 
+# 2024
+
+[Henrique Mantovan](henrique.html)
+
 # 2023
 
 Rafael Loureiro
