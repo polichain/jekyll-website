@@ -16,14 +16,15 @@ title:  "Henrique Mantovan"
 <h2 style="text-align: center;"> Prazer, eu sou o Henrique! </h2>
 
 
-### Sobre mim
-<p style="text-indent: 30px;">
+## Sobre mim
+
 Nasci e vivi minha vida toda em São Bernardo do Campo - SP e atualmente me mudei pra região do Butantã pra cursar Engenharia da Computação na POLI. Me interessei pela POLICHAIN por ser uma forma de aprender coisas novas e entender a aplicabilidade do que eu ja sei. A tecnologia de BlockChain é algo ainda recente pra mim, mas  foi algo que me trouxe curiosidade na sua estrutura e na sua aplicabibilidade no contexto atual. Espero e pretendo aprender muito com todos vocês! 
-<p>
 
 
-### Redes Sociais
-- <a href="https://www.linkedin.com/in/henrique-carvalho-12073030b/"><img src="../assets/logo_linkedin.png" alt="Linkedin" style="height: 20px"> Linkedin</a>
+## Redes Sociais
+
+
+- <a href="https://www.linkedin.com/in/henrique-carvalho-12073030b/"><img src="../assets/logo_linkedin.png" alt="Linkedin" style="height: 20px"> Linkedin</a> <br/>
 - <a href="https://github.com/henriquemantovan"><img src="../assets/logo_github.png" alt="GitHub" style="height: 20px"> GitHub</a>
 
 ---
