@@ -9,8 +9,6 @@ date:   2023-04-08 00:00:00 -0300
 
 [Dan Shoji](dan.html)
 
-# 2024
-
 [Henrique Mantovan](henrique.html)
 
 # 2023
